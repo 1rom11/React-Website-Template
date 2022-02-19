@@ -1,13 +1,20 @@
-## Running React on Repl.it
+## Bulma x React.js (Vite)
 
-[React](https://reactjs.org/) is a popular JavaScript library for building user interfaces.
+How to start. Fork the project and clone it
 
-[Vite](https://vitejs.dev/) is a blazing fast frontend build tool that includes features like Hot Module Reloading (HMR), optimized builds, and TypeScript support out of the box.
+`
+git clone https://github.com/<your-username>/React-Website-Template.git
+`
 
-Using the two in conjunction is one of the fastest ways to build a web app.
+or
 
-### Getting Started
-- Hit run
-- Edit [App.jsx](#src/App.jsx) and watch it live update!
+`
+gh repo clone <your-username>/React-Website-Template
+`
 
-By default, Replit runs the `dev` script, but you can configure it by changing the `run` field in the `.replit` file.
+Use `make build` to build your project as raw html. Update the project dependency using `make update`
+
+> 1rom11
+
+
+For dependencies check Dependency.md 
