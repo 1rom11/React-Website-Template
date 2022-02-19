@@ -17,3 +17,8 @@ install:
 	npm audit fix
 	npm list
 	make
+
+start:
+	make install
+	make update
+	make
