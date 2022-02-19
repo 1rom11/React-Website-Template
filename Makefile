@@ -25,4 +25,5 @@ install:
 start:
 	make install
 	make update
+	bash github.sh
 	make
