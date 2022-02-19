@@ -6,7 +6,8 @@ build:
 	npm i
 	npm install --save gh-pages
 	npm run predeploy
-	npm run deploy
+	git add dist -f
+	git subtree push --prefix dist origin gh-pages
 
 update:
 	npm i
