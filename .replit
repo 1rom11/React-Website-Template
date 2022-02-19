@@ -1,0 +1,2 @@
+run="make"
+entrypoint="src/App.jsx"
