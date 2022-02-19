@@ -4,7 +4,9 @@ dev:
 
 build:
 	npm i
-	npm run build
+	npm install --save gh-pages
+	npm run predeploy
+	npm run deploy
 
 update:
 	npm i
@@ -14,6 +16,7 @@ update:
 install:
 	npm i
 	npm install bulma
+	npm install --save gh-pages
 	npm audit fix
 	npm list
 	make
