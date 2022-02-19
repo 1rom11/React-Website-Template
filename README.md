@@ -17,4 +17,6 @@ Use `make build` to build your project as raw html. Update the project dependenc
 > 1rom11
 
 
+To host to github get the dist from the `make build` command and put it in another branch called `build` and set the github page to build (not main or master!!)
+
 For dependencies check Dependency.md 
